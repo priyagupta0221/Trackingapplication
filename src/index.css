@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.colors-boxes .color-box {
+  margin-bottom: 20px;
+  border: 1px solid #eee;
+}
+
+.color-box .color-view {
+  position: relative;
+  padding: 35px 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.color-box .color-view span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  color: #fff;
+}
+
+.color-box .color-name {
+  padding: 7px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.color-box .color-name small {
+  display: block;
+  font-weight: 400;
+}
+
+.colors-tabs {
+  padding-top: 15px;
+  margin: 0;
+  border: 0;
+  display: block;
+}
+
+.colors-tabs span {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: 0 !important;
+  padding: 0;
+}
+body .content-wrapper {
+  min-height: 100%;
+}
+.color-palette {
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.numberlist ol {
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal;
+  font: 15px "trebuchet MS", "lucida sans";
+  padding: 0;
+  margin-bottom: 4em;
+}
+.numberlist div.holiday-list {
+  position: relative;
+  display: block;
+  padding: 0.4em 0.4em 0.4em 2em;
+  background: #fff;
+  color: #253544;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  border-bottom: 1px solid;
+  font-size: 14px;
+}
+
+.numberlist div:before {
+  background: #b6c3c3 !important;
+}
+.holiday-event {
+  font-size: 15px;
+  font-weight: 500;
+  min-width: 48%;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  font-size: 14px;
+}
+.numberlist div:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #ffb308;
+  height: 2.5em;
+  width: 2.5em;
+  line-height: 2em;
+  border: 0.3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  -moz-border-radius: 2em;
+  -webkit-border-radius: 2em;
+  border-radius: 2em;
+  color: #fff;
+}
+.numberlist div .badge-default {
+  min-width: 172px;
+  text-align: left;
+}
+.widget-stat-icon {
+  width: 40px;
+}
+#bar_chart {
+  min-height: 337px;
+}
+.numberlist div .badge-default {
+  position: absolute;
+  right: 0px;
+  top: -12px;
+  background-color: #ffb308;
+  color: #253544;
+}
+.numberlist div {
+  margin-bottom: 20px;
+}
+.numberlist ol li:last-child div {
+  margin-bottom: 0px;
+}
+.pagination-align {
+  position: absolute;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.pagination-align.pagination {
+  display: inline-flex;
+}
+
+.page-content {
+  padding-top: 10px;
+}
+.ibox-body.about-page {
+  min-height: 20rem;
+}
+.widget-stat-icon {
+  line-height: 50px;
+}
+
+.about-ibox {
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+/* .ibox .ibox-head.about-head {
+  background: #0093f5;
+  color: #fff;
+} */
+.head-col {
+  color: #ffffff !important;
+  font-size: 1.5rem;
+}
+.tbl-date {
+  white-space: nowrap;
+}
+.about-icon {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+img.teq-logo {
+  max-width: 86%;
+}
